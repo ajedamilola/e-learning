@@ -1,0 +1,1 @@
+mysqldump -u root -p123456 --insert-ignore elearning > backup/database.sql
