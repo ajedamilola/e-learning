@@ -19,7 +19,6 @@
 -- Table structure for table `activations`
 --
 
-DROP TABLE IF EXISTS `activations`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `activations` (
@@ -44,7 +43,6 @@ UNLOCK TABLES;
 -- Table structure for table `courses`
 --
 
-DROP TABLE IF EXISTS `courses`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `courses` (
@@ -72,7 +70,6 @@ UNLOCK TABLES;
 -- Table structure for table `grades`
 --
 
-DROP TABLE IF EXISTS `grades`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `grades` (
@@ -96,7 +93,6 @@ UNLOCK TABLES;
 -- Table structure for table `instructors`
 --
 
-DROP TABLE IF EXISTS `instructors`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `instructors` (
@@ -125,7 +121,6 @@ UNLOCK TABLES;
 -- Table structure for table `lessons`
 --
 
-DROP TABLE IF EXISTS `lessons`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `lessons` (
@@ -158,7 +153,6 @@ UNLOCK TABLES;
 -- Table structure for table `subjects`
 --
 
-DROP TABLE IF EXISTS `subjects`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `subjects` (
@@ -183,7 +177,6 @@ UNLOCK TABLES;
 -- Table structure for table `tests`
 --
 
-DROP TABLE IF EXISTS `tests`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `tests` (
@@ -217,7 +210,6 @@ UNLOCK TABLES;
 -- Table structure for table `usercourses`
 --
 
-DROP TABLE IF EXISTS `usercourses`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `usercourses` (
@@ -245,7 +237,6 @@ UNLOCK TABLES;
 -- Table structure for table `users`
 --
 
-DROP TABLE IF EXISTS `users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `users` (
@@ -283,7 +274,6 @@ UNLOCK TABLES;
 -- Table structure for table `usertests`
 --
 
-DROP TABLE IF EXISTS `usertests`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `usertests` (
@@ -316,4 +306,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-01-17 11:53:51
+-- Dump completed on 2024-01-17 11:56:18
