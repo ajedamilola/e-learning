@@ -6,7 +6,6 @@ const knex = require('knex')({
     user : 'root',
     password : '123456',
     database : 'elearning',
-insecureAuth : true
   },
   debug: true
 });
